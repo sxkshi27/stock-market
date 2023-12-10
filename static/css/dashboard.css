@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../fonts/poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("../fonts/poppins/Poppins-SemiBold.ttf");
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins-Regular";
+    color: #333;
+    font-size: 13px;
+    margin: 0;
+}
+
+input,
+textarea,
+select,
+button {
+    font-family: "Poppins-Regular";
+    color: #333;
+    font-size: 13px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+
+:focus {
+    outline: none;
+}
+
+header .nav-link {
+    margin-left: 0;
+    width: 40rem;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+header .nav-link a {
+    padding-right: 1.5rem;
+    font-size: 1.5rem;
+}
+
+header .nav-logo img{
+    width: 3.5rem;
+    height: auto;
+}
+.wrapper {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    background-image: linear-gradient(to right top, #b5d9f2, #b0d4f1, #adcfef, #a9c9ee, #a7c4ec, #a2c0ea, #9cbde9, #97b9e7, #8cb6e6, #80b4e4, #73b1e2, #64afe0);
+}
+
+
